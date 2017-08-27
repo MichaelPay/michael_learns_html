@@ -1,0 +1,21 @@
+body {
+    font-family: "Arial";
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border: solid 5px;
+    text-align: center;
+}
+
+.main_image {
+    border: solid 4px black;
+    border-radius: 50%;
+}
+
+.section-title {
+    text-transform: capitalize;
+}
