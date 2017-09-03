@@ -1,0 +1,47 @@
+<!--
+Challenge Task 1 of 4
+
+Create a fieldset element that wraps the name and email fields.
+
+
+Challenge Task 2 of 4
+
+Create another fieldset element that wraps the comment field.
+
+Challenge Task 3 of 4
+
+Add a legend element to the first fieldset and give it the text "Tell us about yourself."
+
+
+Challenge Task 4 of 4
+
+Add another legend element to the second fieldset and give it the text "What's on your mind?"
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>Tell us about yourself.</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user_email">
+      </fieldset>
+
+      <fieldset>
+        <legend>What's on your mind?</legend>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="user_comment"></textarea>
+      </fieldset>
+      <button type="submit">Submit Comment</button>
+    </form>
+
+  </body>
+</html>
